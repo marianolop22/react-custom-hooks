@@ -1,11 +1,10 @@
 import { useState } from "react";
 
-
 /**
  * Este custom Hook, sirve para tratar los campos de un formulario.
  * 
- * @param {*} initialState El estado inicial
- * @returns Retorna el Objeto Actualizado
+ * @param {Object} initialState El estado inicial
+ * @returns {Array} Retorna un array con el state  y los métodos que se pueden manejar
  */
 export const useForm = ( initialState={} ) => {
     
